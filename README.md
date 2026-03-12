@@ -33,21 +33,33 @@ ERP 시스템을 분석 → 설계 → 구현 → 테스트 → 발표까지 수
 
 ## Repository Structure
 
-sap-code-project
-├ 01_project-management
-├ 02_business
-├ 03_architecture
-├ 04_design
-├ 05_modules
-├ 06_development
-├ 07_issues
-└ 08_learning
+- **01_project-management**  
+  프로젝트 진행 기록 및 회의 내용
+
+- **02_business**  
+  기업 분석, Business Challenge, AS-IS / TO-BE 프로세스
+
+- **03_architecture**  
+  시스템 구조 및 모듈 흐름 설계
+
+- **04_design**  
+  ERD 및 테이블 설계
+
+- **05_modules**  
+  모듈별 논의 및 설계
+
+- **06_development**  
+  개발 과정에서 정리한 기술 기록
+
+- **07_issues**  
+  개발 및 설계 과정에서 발생한 문제 해결 기록
+
+- **08_learning**  
+  추가 학습 내용 정리
 
 
 
 ## Purpose
-
-이 저장소는 다음을 목적으로 합니다.
 
 - 프로젝트 진행 기록
 - 모듈별 설계 및 논의 기록
