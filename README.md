@@ -6,7 +6,7 @@ SAP CODE 1기 2반 1조 프로젝트 진행 과정을 기록하는 저장소입�
 ERP 시스템을 분석 → 설계 → 구현 → 테스트 → 발표까지 수행하는  
 약 4개월 동안 진행되는 팀 프로젝트입니다.
 
-본 레포지토리는 프로젝트 진행 과정에서 발생하는  
+본 Repository는 프로젝트 진행 과정에서 발생하는  
 설계 논의, 모듈별 구조, 개발 과정, 문제 해결 등을 기록하기 위한  
 프로젝트 아카이브입니다.
 
@@ -33,29 +33,15 @@ ERP 시스템을 분석 → 설계 → 구현 → 테스트 → 발표까지 수
 
 ## Repository Structure
 
-- **01_project-management**  
-  프로젝트 진행 기록 및 회의 내용
-
-- **02_business**  
-  기업 분석, Business Challenge, AS-IS / TO-BE 프로세스
-
-- **03_architecture**  
-  시스템 구조 및 모듈 흐름 설계
-
-- **04_design**  
-  ERD 및 테이블 설계
-
-- **05_modules**  
-  모듈별 논의 및 설계
-
-- **06_development**  
-  개발 과정에서 정리한 기술 기록
-
-- **07_issues**  
-  개발 및 설계 과정에서 발생한 문제 해결 기록
-
-- **08_learning**  
-  추가 학습 내용 정리
+sap-code-project
+├ 01_project-management
+├ 02_business
+├ 03_architecture
+├ 04_design
+├ 05_modules
+├ 06_development
+├ 07_issues
+└ 08_learning
 
 
 
