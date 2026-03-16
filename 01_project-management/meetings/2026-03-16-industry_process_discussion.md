@@ -1,4 +1,4 @@
-# Meeting – Refinery Industry Process Discussion
+# Refinery Industry Process Discussion
 
 ## Date
 2026-03-16
@@ -6,9 +6,7 @@
 ## Participants
 PM, PL, Team Members
 
----
-
-# Agenda
+## Agenda
 
 정유 산업 구조 이해 및 ERP 시스템 설계를 위한 기본 비즈니스 프로세스 정의
 
