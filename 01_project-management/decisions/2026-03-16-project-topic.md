@@ -2,11 +2,10 @@
 
 Date: 2026-03-16
 
----
 
 ## Company Name
 
-C-nergy
+**C-nergy**
 
 Meaning
 
@@ -16,13 +15,11 @@ Meaning
 
 정유 산업 특성을 반영하면서 팀 협업의 의미를 포함하는 이름으로 결정하였다.
 
----
 
 ## Decision
 
 프로젝트 산업을 정유 산업(Refinery Industry)으로 최종 선정하였다.
 
----
 
 ## Reason
 
