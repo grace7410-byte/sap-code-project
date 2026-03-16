@@ -53,7 +53,7 @@ PM, PL, Team Members (Total 7)
 
 원유 가격 = 해당 월 평균 원유 가격 + OSP
 
-**OSP(Official Selling Price)**는 
+**OSP(Official Selling Price)는** 
 원유를 정제하여 제품을 생산했을 때 발생하는 수익성을 반영한 프리미엄 개념으로 이해하였다.
 
 ---
@@ -79,7 +79,7 @@ PM, PL, Team Members (Total 7)
 - Reverse BOM 구조 적용
 - PP/DS 기반 생산 계획 관리
 
-또한 정유 산업에서의 **Yield**는 정상 제품 비율 개념이 아니라 **제품 구성비(Product Mix)**에 가깝다는 점을 확인하였다.
+또한 정유 산업에서의 **Yield**는 정상 제품 비율 개념이 아니라 **제품 구성비(Product Mix)에** 가깝다는 점을 확인하였다.
 
 ---
 
