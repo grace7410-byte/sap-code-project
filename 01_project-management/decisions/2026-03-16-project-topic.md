@@ -1,10 +1,6 @@
-# Decision – Project Topic
+# Project Topic Decision
 
 Date: 2026-03-16
-
-## Project Topic
-
-Refinery ERP System Design
 
 ---
 
