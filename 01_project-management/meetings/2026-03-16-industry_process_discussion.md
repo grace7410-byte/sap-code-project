@@ -4,7 +4,7 @@
 2026-03-16
 
 ## Participants
-PM, PL, Team Members
+PM, PL, Team Members (Total 7)
 
 ## Agenda
 
