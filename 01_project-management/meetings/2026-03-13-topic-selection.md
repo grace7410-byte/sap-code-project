@@ -1,6 +1,10 @@
 # Topic Selection Meeting
 
-Date: 2026-03-13
+## Date
+2026-03-13
+
+## Participants
+팀원1(PM), 팀원2, 팀원3(나), 팀원4(PL), 팀원5, 팀원6, 팀원7
 
 ## Agenda
 프로젝트 산업 선정
