@@ -45,7 +45,6 @@ PM, PL, Team Members (Total 7)
 
 - **Moving Average Price** 
 : 재고 입고 시점마다 평균 단가 갱신
-
 - **Actual Costing**
 : 실제 원가 기반 제품 원가 계산
 
@@ -59,12 +58,10 @@ PM, PL, Team Members (Total 7)
 
 정유 산업에서는 유가 변동에 따라 Lagging Effect가 발생할 수 있다.
 
-예
-
+**예)**
 높은 가격에 구매한 원유 → 이후 제품 가격 하락
 
-결과
-
+**결과)**
 높은 원가 vs 낮은 판매가 구조 발생
 
 ---
