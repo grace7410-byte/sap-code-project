@@ -43,11 +43,11 @@ PM, PL, Team Members (Total 7)
 
 주요 개념
 
-Moving Average Price  
-재고 입고 시점마다 평균 단가 갱신
+- **Moving Average Price** 
+: 재고 입고 시점마다 평균 단가 갱신
 
-Actual Costing  
-실제 원가 기반 제품 원가 계산
+- **Actual Costing**
+: 실제 원가 기반 제품 원가 계산
 
 또한 원유 가격은 다음 구조로 이해하였다.
 
