@@ -4,7 +4,7 @@
 2026-03-13
 
 ## Participants
-PM, PL, Team Members
+PM, PL, Team Members (Total 7)
 
 ## Agenda
 프로젝트 산업 선정
