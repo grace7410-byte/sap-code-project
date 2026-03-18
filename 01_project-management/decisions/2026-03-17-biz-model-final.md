@@ -1,7 +1,7 @@
-# Decision: C-nergy 비즈니스 모델 및 마스터 데이터 확정
+Project Topic Decision
+Date: 2026-03-17
 
-**Date:** 2026-03-17
-**Status:** Approved
+Decision: C-nergy 비즈니스 모델 및 마스터 데이터 확정
 
 ## 1. 기업 포지셔닝
 * **대상 기업**: C-nergy (연 매출 5,000억 규모 중견 정유사)
