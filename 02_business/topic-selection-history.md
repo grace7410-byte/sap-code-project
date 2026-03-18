@@ -1,4 +1,4 @@
-# Project Topic Industry Analysis
+# industry-analysis
 
 Date: 2026-03-13
 
