@@ -41,7 +41,7 @@ PM(팀원1), PL(팀원4), 팀원3(CL), 팀원2, 팀원5, 팀원6, 팀원7 (Total
 ---
 
 ## Conclusion
-팀원3을 **CL(Module Design Leader)**로 선출하여 설계 단계의 전문성을 강화함. 확정된 4대 Key-Point를 중심으로 1차 컨설턴트 리뷰를 대비하기로 함.
+팀원3을 **CL(Module Design Leader)로** 선출하여 설계 단계의 전문성을 강화함. 확정된 4대 Key-Point를 중심으로 1차 컨설턴트 리뷰를 대비하기로 함.
 
 ---
 
