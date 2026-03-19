@@ -63,3 +63,16 @@ Date: 2026-03-17
 2. **정교한 수익성 분석 체계** - 그동안 관리되지 않던 연산품별 수율을 데이터화하여 매출원가 배분 및 실제 마진 산출.
 3. **온도 보정을 통한 재고 정산** - 국제 표준 온도 표를 적용하여 선적/하역 간 부피 변화를 오차 없이 정정하고 실제 증발 손실을 추적.
 4. **환율 변동 리스크 관리 (Hedging)** - 대규모 원유 수입 시 발생하는 환율 리스크를 최소화하기 위해 외환 해징 시나리오를 정산 프로세스에 통합.
+
+---
+
+## 7. Integrated Business Flow (To-Be)
+
+**[Purchasing & Finance]**
+- 원유 선택(Price Comparison) → 구매(PO) → 입고(GR) → **[승인 프로세스]** → **[해징]** → 송장(Invoice) → 지급 및 반제
+
+**[Production & Costing]**
+- Master Data(BOM/WC/Routing) → 자재 단가 확정(원가 배분) → MRP → 생산오더 → 공정별 투입 비용 배부(CO 결산)
+
+**[Sales & Logistics]**
+- 수요 파악 → 가용재고 관리 → Sales Order(Pricing) → Outbound Delivery → Billing → 출고 및 입금 반제
