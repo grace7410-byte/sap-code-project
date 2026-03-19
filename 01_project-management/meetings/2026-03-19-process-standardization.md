@@ -33,8 +33,8 @@ SCM 중심 흐름에서 FCM 모듈의 개입 포인트를 명확화함.
 
 | 모듈 | 담당 | 주요 실습 내용 (T-Code) | 비고 |
 | :--- | :--- | :--- | :--- |
-| **FI** | 팀원2,5 | F-44(Clearing), F-53(Outgoing Payment) | 공급업체(10300001) 미결 전표 반제 완료 |
-| **CO** | 팀원3,6 | FS00(G/L), KS01(Cost Center), KL01(Activity) | 전력비 계정(51001000) 및 인사 코스트센터 생성 |
+| **FI** | 팀원5,6 | F-44(Clearing), F-53(Outgoing Payment) | 공급업체(10300001) 미결 전표 반제 완료 |
+| **CO** | 팀원2,3 | FS00(G/L), KS01(Cost Center), KL01(Activity) | 전력비 계정(51001000) 및 인사 코스트센터 생성 |
 | **SD** | 팀원1,7 | Condition Master, Sales Area 설정 | 마스터 생성 및 가격 결정 로직 분석 중 |
 | **PP** | 팀원4 | Work Center, Routing 분석 | 공정별 투입 소요시간 및 단가 산출 구조 파악 |
 
