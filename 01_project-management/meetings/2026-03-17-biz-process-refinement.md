@@ -4,7 +4,7 @@
 2026-03-17
 
 ## Participants
-PM, PL, Team Members (Total 7)
+PL, Team Members (Total 5)
 
 ## Agenda
 C-nergy 기업 포지셔닝 확정 및 5대 Business Challenge 기반 AS-IS/TO-BE 설계
