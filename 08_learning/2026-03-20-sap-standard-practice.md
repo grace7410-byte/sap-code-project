@@ -1,4 +1,4 @@
-# SAP Standard Practice (SD/PP/MM)
+# SAP Standard Practice
 
 Date: 2026-03-20
 
