@@ -2,9 +2,8 @@
 
 Date: 2026-03-20
 
-Status: Resolved
-
-Module: SD
+- Status: Resolved
+- Module: SD
 
 ## 발생 상황
 - `VL01N`(출하 생성)에서 정상적인 판매 오더 번호(383)를 입력했음에도 "준비된 물건이 없음(No schedule lines due for delivery)" 메시지가 발생하며 문서 생성 불가.
