@@ -1,4 +1,4 @@
-# [Strategy] 2-Track Production
+# 2-Track Production Strategy
 수요 기반 최적 수율 생산 로직
 
 Date: 2026-03-20
