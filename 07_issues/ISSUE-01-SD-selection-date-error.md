@@ -1,4 +1,5 @@
-# Standard 출하 생성 시 Selection Date 오류
+# Standard Practice
+## 출하 생성 시 Selection Date 오류
 
 Date: 2026-03-20
 
@@ -17,3 +18,4 @@ Date: 2026-03-20
 
 ## 참고 자료
 - T-Code: VA03, VL01N
+- 실습 시나리오: 독일 함부르크 'OIL TEST3' 주유소 판매 시나리오
