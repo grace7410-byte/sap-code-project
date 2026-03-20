@@ -1,8 +1,9 @@
-# [Strategy] 수요 기반 최적 수율 생산 로직 (2-Track Production)
+# [Strategy] 2-Track Production
+수요 기반 최적 수율 생산 로직
 
 Date: 2026-03-20
-Status: Draft
-Owner: CL (C-nergy Project Team)
+- Status: Draft
+- Owner: CL (C-nergy Project Team)
 
 ## 1. Business Challenge
 정유 산업은 원유 도입부터 제품 생산까지의 리드타임(Lead-time)이 매우 길며(수입 시 45일 이상), 하나의 원유에서 여러 제품이 동시에 생산되는 연산품 구조를 가진다. 
