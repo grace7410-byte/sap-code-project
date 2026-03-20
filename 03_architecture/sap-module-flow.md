@@ -4,6 +4,7 @@ Date: 2026-03-18 ~ 2026-03-20
 
 ## 1. 개요
 C-nergy 프로젝트의 핵심인 '수요 기반 최적 수율 생산' 로직을 구현하기 위한 모듈 간 통합 데이터 흐름도입니다.
+
 ![Architecture Thumbnail](./Process_Flow_260320.png)
 
 ## 2. 모듈 간 연결 구조 (The Synergy Integration)
