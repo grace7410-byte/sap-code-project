@@ -1,4 +1,6 @@
-# [Learning] SAP Standard Practice & Troubleshooting (2026-03-20)
+# [Learning]
+SAP Standard Practice & Troubleshooting
+2026-03-20
 
 ## 1. SD (Sales & Distribution) 실습 및 주요 개념
 
