@@ -4,7 +4,7 @@
 2026-03-19
 
 ## Participants
-PM(팀원1), PL(팀원4), 팀원3(CL), 팀원2, 팀원5, 팀원6, 팀원7 (Total 7)
+PM, PL(PP), CL(MM), 팀원2(CO), 팀원5(FI), 팀원6(FI), 팀원7(SD) (Total 7)
 
 ## Agenda
 Standard 프로세스 재정립 및 Hands-on Practice 시스템 기반 모듈별 트랜잭션 실습
