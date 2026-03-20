@@ -1,4 +1,4 @@
-# [Issue] SD 출하 생성 시 Selection Date 오류
+# 출하 생성 시 Selection Date 오류
 
 Date: 2026-03-20
 
