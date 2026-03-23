@@ -1,4 +1,4 @@
-# SAP Integrated Module Flow (To-Be) v2.0
+# SAP Integrated Module Flow v2.0
 
 ## 주요 흐름 변경점
 Date: 2026-03-23
