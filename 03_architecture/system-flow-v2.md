@@ -7,3 +7,5 @@
    - 생산(Plant) -> 이동(STO) -> 물류센터(SLoc) -> 판매(Customer)
    - 모든 재고 파악 및 에이징 관리는 물류센터(SLoc) 레벨에서 수행.
 3. **생산-판매 분리**: 실시간 연동을 끊고, 물류센터의 '재고 적정성'을 피드백으로 받아 PP의 생산 계획을 보정하는 루프(Loop) 구조 채택.
+
+![Architecture Thumbnail](./images/Process_Flow_260323.png)
