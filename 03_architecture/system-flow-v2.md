@@ -1,7 +1,10 @@
-# Integrated Process Flow v2.0
+# SAP Integrated Module Flow (To-Be) v2.0
 
-## 주요 흐름 변경점 (2026-03-23 반영)
+## 주요 흐름 변경점
+Date: 2026-03-23
 
+## 1. 개요
+C-nergy 프로젝트의 핵심인 '수요 기반 최적 수율 생산' 로직을 구현하기 위한 모듈 간 통합 데이터 흐름도입니다.
 1. **Inbound/Outbound Delivery 구체화**: 단순히 오더에서 입/출고로 가는 것이 아니라, 선박/유조차 기반의 운송 관리(Delivery Order) 단계를 명확히 함.
 2. **물류센터(Distribution Center) 중심**:
    - 생산(Plant) -> 이동(STO) -> 물류센터(SLoc) -> 판매(Customer)
