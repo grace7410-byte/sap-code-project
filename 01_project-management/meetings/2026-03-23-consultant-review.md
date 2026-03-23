@@ -1,10 +1,10 @@
-# 1차 컨설턴트 리뷰 및 프로세스 재설계 회의
+# 1st Consultant Review Meeting
 
 ## Date
 2026-03-23
 
 ## Participants
-PM, PL, CL, 팀원 전체, SD/PP 컨설턴트 (Total 9)
+PM, PL, CL, Team Members, SD/PP 컨설턴트 (Total 9)
 
 ## Agenda
 1차 컨설턴트 리뷰 피드백 수렴 및 정유 산업 특화 TO-BE 모델 수정
