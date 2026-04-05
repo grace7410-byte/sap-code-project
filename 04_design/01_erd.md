@@ -5,7 +5,7 @@ v1.0 - Date: 2026-04-02
 
 정유 산업의 비즈니스 복잡성(운송 리드타임, 수율 변동, 거점 재고)을 수용하기 위해 설계된 초기 통합 ERD입니다. MM, PP, SD, FI/CO 각 모듈의 핵심 엔티티 간 관계를 정의하였습니다.
 
-![Integrated ERD v1.0](./images/ERD_260402.jpg)
+![Integrated ERD v1.0](./images/ERD_260402.png)
 *파일명: ERD_260402.jpg / 4월 2일 1차 확정본*
 
 ---
