@@ -4,7 +4,7 @@
 2026-03-30
 
 ## Participants
-PM, PL, CL, Team Members (Total 7)
+PM, PL, CL, Team Members, SD/FI 컨설턴트 (Total 9)
 
 ## Agenda
 - SD/MM/PP 프로세스 현실성 및 석유 산업 특화 로직 검토
