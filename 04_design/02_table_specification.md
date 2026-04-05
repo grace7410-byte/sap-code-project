@@ -339,6 +339,18 @@ Table ZTB1MM0020 [note: "부피 측정 테이블"] {
 ### 1.2 Production Planning (PP) & Controlling (CO)
 *BOM, 공정, 생산 실적 및 원가 센터 정보 매핑*
 
+| 핵심 테이블 | 용도 |
+| :--- | :--- |
+| **ZTB1PP0002** | BOM 헤더 (Bill of Material Header) |
+| **ZTB1PP0008** | 공정 헤더 (Routing Header) |
+| **ZTB1PP0011** | MRP 아이템 (MRP Result / Order Link) |
+| **ZTB1PP0012** | 생산 계획 및 생산 오더 (Production Order) |
+| :--- | :--- |
+| **ZTB1CO0001** | 코스트 센터 마스터 (Cost Center Master) |
+| **ZTB1CO0003** | 플랜트 공정 마스터 (Plant Process Master) |
+| **ZTB1CO0006** | 실적 기반 투입/산출량 (Actual Input/Output Log) |
+| **ZTB1CO0011** | 제품별 단위 원가 결과 (Product Unit Cost Result) |
+
 <details>
 <summary>PP/CO 상세 테이블 스키마 코드 보기</summary>
   
@@ -734,6 +746,13 @@ Ref: ZTB1CO0011.PRODUCT_ID > ZTB1MM0001.MATNR
 ## 1.3 Sales & Distribution (SD)
 *판매 가격 결정, 물류센터 보충 및 대금 청구 구조*
 
+| 핵심 테이블 | 용도 |
+| :--- | :--- |
+| **ZTB1SD0001** | 비즈니스 파트너 일반 (BP Master General) |
+| **ZTB1SD0004** | 가격 조건 마스터 (Condition Master - 정유 판가 관리) |
+| **ZTB1SD0006** | 판매 오더 헤더 (Sales Order Header) |
+| **ZTB1SD0010** | 대금 청구 헤더 (Billing Header) |
+
 <details>
 <summary>SD 상세 테이블 스키마 코드 보기</summary>
 
@@ -876,7 +895,7 @@ Table ZTB1SD0010 [note: "대금청구 헤더"]{
   ZDNCT int(4)
   ZDNDT date
 }
-Table ZTB1SD0011 [note: "대금청구 아이"]{
+Table ZTB1SD0011 [note: "대금청구 아이템"]{
   MANDT varchar(3) [pk]
   VBELN varchar(10) [pk]
   POSNR varchar(4) [pk]
@@ -913,6 +932,13 @@ Ref: ZTB1SD0011.VBELN_VA > ZTB1SD0009.VBELN
 
 ## 1.4 Finance (FI)
 전표 헤더/아이템 및 환율 관리 구조
+
+| 핵심 테이블 | 용도 |
+| :--- | :--- |
+| **ZTB1FI0001** | 회계 전표 헤더 (FI Document Header) |
+| **ZTB1FI0005** | G/L 마스터 (General Ledger Master) |
+| **ZTB1FI0007** | 환율 마스터 (Exchange Rate - 외자/수출 대응) |
+| **ZTB1FI0010** | BP 회계 정보 (BP Financial Data) |
 
 <details>
 <summary>FI 상세 테이블 스키마 코드 보기</summary>
