@@ -1,5 +1,7 @@
 # 02_table_specification.md
 
+Date: 2026-04-02 (v1)
+
 ## 1. Data Schema Overview (DBML)
 본 프로젝트의 테이블 구조와 외래 키(Ref) 관계를 정의한 데이터 스키마임. 
 
