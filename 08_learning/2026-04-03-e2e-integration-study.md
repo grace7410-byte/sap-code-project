@@ -2,7 +2,7 @@
 Date: 2026-04-03
 
 ## 1. 학습 배경
-단순히 본인 모듈의 개발 리스트를 채우는 것을 넘어, 프로젝트의 성공적인 완성을 위해 **전사적 데이터 흐름(End-to-End)**을 완벽히 이해할 필요성을 느낌. 특히 SD(판매/물류)와 MM(구매/재고), PP(생산)가 맞물리는 접점을 집중적으로 분석함.
+단순히 본인 모듈의 개발 리스트를 채우는 것을 넘어, 프로젝트의 성공적인 완성을 위해 **전사적 데이터 흐름(End-to-End)을** 완벽히 이해할 필요성을 느낌. 특히 SD(판매/물류)와 MM(구매/재고), PP(생산)가 맞물리는 접점을 집중적으로 분석함.
 
 ## 2. 핵심 학습 내용: SD-MM-PP 통합 흐름 (Pull 방식)
 
@@ -18,6 +18,7 @@ Date: 2026-04-03
     - *System Action*: 승인과 동시에 본사 저장위치(SLoc)에서 물류센터 저장위치로 **재고 이동(Transfer Posting)** 처리.
     - *Accounting*: 이와 동시에 재고 자산의 위치 변경에 따른 FI 전표 자동 연동.
 
+
 ## 3. 모듈별 기술 구현 그라운드 룰 (Technical Ground Rules)
 
 각 모듈이 비즈니스 요구사항을 충족하기 위해 선택한 기술적 구현 방식을 정리함.
@@ -29,6 +30,7 @@ Date: 2026-04-03
 | **PP** | 변동 수율 반영 및 공정 추적 | 이원화 관리(계획-예측/실적-실측), Fiori Gantt Chart |
 | **SD** | 거점별 수요 기반 Pull 물류 구현 | Search Help, 화면 이동, 자동 Stock Transfer 연동 |
 
+
 ## 4. 성찰 및 시사점
 
 ### [전체 프로세스 이해의 중요성]
@@ -38,4 +40,4 @@ Date: 2026-04-03
 
 ---
 **첨부 자료:** 
-![Architecture Thumbnail](././03_architecture/images/Process_Flow_260403.png)
+![Architecture Thumbnail](../03_architecture/images/Process_Flow_260403.png)
