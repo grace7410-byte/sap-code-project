@@ -341,6 +341,7 @@ Table ZTB1MM0020 [note: "부피 측정 테이블"] {
 
 <details>
 <summary>PP/CO 상세 테이블 스키마 코드 보기</summary>
+  
 ```dbml
 /* ===== PP ===== */
 Table ZTB1PP0001 [note: "CBO. 생산 계획 수립에 사용. PBIM + PBED"] {
@@ -728,7 +729,6 @@ Ref: ZTB1CO0011.PROCESS_ID > ZTB1CO0003.PROCESS_ID
 Ref: ZTB1CO0011.COST_CENTER > ZTB1CO0001.CO_CENTER
 Ref: ZTB1CO0011.PRODUCT_ID > ZTB1MM0001.MATNR
 ```
-```
 </details>
 
 ## 1.3 Sales & Distribution (SD)
@@ -736,6 +736,7 @@ Ref: ZTB1CO0011.PRODUCT_ID > ZTB1MM0001.MATNR
 
 <details>
 <summary>SD 상세 테이블 스키마 코드 보기</summary>
+
 ```dbml 
 /* ===== SD ===== */
 Table ZTB1SD0001 [note: "BP 마스터 일반"] {		
@@ -908,7 +909,6 @@ Ref: ZTB1SD0010.VBELN_VA > ZTB1SD0008.VBELN
 Ref: ZTB1SD0011.VBELN > ZTB1SD0010.VBELN
 Ref: ZTB1SD0011.VBELN_VA > ZTB1SD0009.VBELN
 ```
-```
 </details>
 
 ## 1.4 Finance (FI)
@@ -916,6 +916,7 @@ Ref: ZTB1SD0011.VBELN_VA > ZTB1SD0009.VBELN
 
 <details>
 <summary>FI 상세 테이블 스키마 코드 보기</summary>
+
 ```
 /* ==== FI ==== */
 
