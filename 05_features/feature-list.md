@@ -29,7 +29,7 @@ Date: 2026-04-22 (v1)
 | **생산 오더 Release** | 계획 오더의 실행 전환 및 가용성 점검 | PP | Team | Planning |
 | **WC 상태 수정** | Work Center 가동 상태 모니터링 및 변경 | PP | Team | Planning |
 | **WC 일정 추적/변경** | 설비 일정 스케줄링 및 부하 조정 | PP | Team | Planning |
-| **대금 청구 관리** | 판매 실적 기반 Billing Document 생성 및 관리 | SD | Planning |
+| **대금 청구 관리** | 판매 실적 기반 Billing Document 생성 및 관리 | SD | Team | Planning |
 | **마진 분석** | 원가 대비 판매가 분석을 통한 수익성 검토 | SD | Team | Planning |
 | **본사 운송 승인 처리** | 물류센터 보충 요청에 대한 본사 승인 및 배분 | SD | Team | Planning |
 | **재무상태표 (B/S)** | 특정 시점의 기업 재무 상태 보고서 | FI | Team | Planning |
