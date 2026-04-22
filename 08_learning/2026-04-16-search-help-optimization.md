@@ -24,12 +24,12 @@ SAP 개발할 때 모든 필드에 개별 Search Help Object를 만드는 건 �
 
 ### [방법 1] 구조체(i_structure_name) 활용 시
 ALV 호출할 때 참조하는 테이블/구조체에 이미 마스터 데이터 관계가 설정되어 있다면 가장 편함.
-![i_structure_name](./images/img1.png)
+![i_structure_name](./image/img1.png)
 
 * **세팅**: 테이블 각 필드(자재마스터, 플랜트, 저장위치 등)에 FK를 걸어줌.
 * **DATS 타입**: 자동으로 표준 달력이 띄워짐.
 
-![dats_search_help](./images/img2.png)
+![dats_search_help](./image/img2.png)
 *DATS 타입 서치헬프 예시*
 
 ### [방법 2] 필드 카탈로그(FCAT) 수동 설정 시
@@ -59,7 +59,7 @@ APPEND ls_fcat TO lt_fcat.
 ls_fcat-fieldname   = 'MWSKZ'.   " 필드명
 ls_fcat-drdn_hndl = '1'. " 지정한 핸들 번호(1) 연결
 ```
-![Dropdown Result](./images/img3.png)
+![Dropdown Result](./image/img3.png)
 *ALV 드롭다운 적용 화면*
 
 ---
@@ -82,7 +82,7 @@ APPEND ls_dropdown TO lt_dropdown.
 " ALV 객체 생성 직후(set_fcat 전)에 보따리 전달
 go_grid->set_drop_down_table( it_drop_down = lt_dropdown ).
 ```
-![Dropdown Result](./images/img4.png)
+![Dropdown Result](./image/img4.png)
 *ALV 드롭다운 적용 화면*
 
 ---
@@ -92,14 +92,14 @@ go_grid->set_drop_down_table( it_drop_down = lt_dropdown ).
 * 직접 드롭다운 하드코딩하는 것보다 마스터 테이블 만들고 FK 거는 게 유지보수 면에서 훨씬 낫다.
 * 마스터 테이블이나 SH 오브젝트 만들기 싫으면 드롭다운이 대안이지만, 결국 정석은 마스터 테이블 + SH 연결이다.
 
-![Search Help Creation](./images/img5.png)
+![Search Help Creation](./image/img5.png)
 *플랜트/저장위치 결합 서치헬프 생성 예시*
 
 ---
 
 **관련 파일:**
-* ./images/img1.png
-* ./images/img2.png
-* ./images/img3.png
-* ./images/img4.png
-* ./images/img5.png
+* ./image/img1.png
+* ./image/img2.png
+* ./image/img3.png
+* ./image/img4.png
+* ./image/img5.png
