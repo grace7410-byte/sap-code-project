@@ -33,7 +33,7 @@
 
 ## 📐 Design Phase Decisions (기획 및 설계 단계)
 <details>
-<summary> 기획 및 아키텍처 설계 단계 보기 클릭 </summary>
+<summary> 기획 및 아키텍처 설계 단계 보기 </summary>
 <br>
   
 > 비즈니스 모델(BM) 수립, 정유 공정 정립, 모듈 간 전체 데이터 연동 흐름을 설계한 단계입니다.
