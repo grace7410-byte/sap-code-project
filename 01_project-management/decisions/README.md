@@ -1,8 +1,8 @@
 # 📂 Decisions (Architecture & PM Decisions)
 
-프로젝트 진행 중 시스템 아키텍처, 테이블 구조, 정유 도메인 비즈니스 로직 및 PM 일정 관리 차원에서 발생한 **주요 의사결정 사항(Architecture Decisions)**을 기록합니다.
+프로젝트 진행 중 시스템 아키텍처, 테이블 구조, 정유 도메인 비즈니스 로직 및 PM 일정 관리 차원에서 발생한 **주요 의사결정 사항(Architecture Decisions)을** 기록합니다.
 
----
+
 
 ## 🛠️ Development Phase Decisions (개발 단계)
 > 본격적인 ABAP/Fiori 구현, UI/UX 표준화, 데이터 스케일 최적화 및 평가 피드백 반영 사항입니다.
