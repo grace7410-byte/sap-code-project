@@ -19,30 +19,23 @@ ZTB1MM0001 및 ZTB1MM0003 테이블을 직접 수정할 수 없으며, Member 1(
 
 ```mermaid
 graph TD
-    %% 스타일 정의
-    classDef event fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
-    classDef doc fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
-    classDef func fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,stroke-dasharray: 5 5;
-    classDef table fill:#fafafa,stroke:#424242,stroke-width:2px;
-
-    %% 노드 배치
-    A[각 모듈별 물류 트랜잭션 발생<br>• 구매: 원유 입고 / 증발 로스<br>• 생산: 반제/완제 입출고<br>• 판매: 완제품 거점 이동 및 출고] --> B(자재이동문서 자동 생성<br>수량 및 가치 금액 확정);
-    B --> C{공통 연동 함수 모듈 호출<br>ZFM_MM_FCM_STOCK_INTEGRATION};
+    %% 1. 물류 트랜잭션 발생 및 문서 생성
+    A["[ 물류 트랜잭션 발생 ]<br><br>• 구매: 원유 입고 / 증발 로스 (이동유형 101, 551)<br>• 생산: 반제품/완제품 입출고<br>• 판매: 완제품 거점 이동 및 출고 (GI)"]
+    A --> B["[ 자재이동문서 생성 ] (수량 변동 발생)"]
     
-    %% 분기 로직 구조
-    C -->|구매 / 생산 트랜잭션| D[ZTB1MM0001 <br> 자재 마스터 테이블];
-    C -->|전 모듈 공통| E[ZTB1MM0003 <br> 저장위치별 재고 테이블];
-    C -->|판매 출고 트랜잭션 SD| F[ZTB1MM0001 업데이트 Skip<br>생산원가 보호];
+    %% 2. 공통 연동 함수 모듈 호출
+    B --> C["★ PM 개발 공통 연동 함수 모듈 자동 호출<br>(ZFM_`이름생성시추가`)"]
+    
+    %% 3. 테이블 동시 업데이트 분기
+    C --> D["[ 자재 마스터 테이블 (ZTB1MM0001) ]<br><br>• 이동평균가(생산원가) 서치<br>• 원재료: 도입/로스 반영 실시간 계산<br>• 연산품: CO-PP 확정 생산원가 Lock"]
+    C --> E["[ 저장위치별 재고 테이블 (ZTB1MM0003) ]<br><br>• 해당 저장위치의 '총 재고량' 차감<br>• '총 평가금액' 필드 실시간 동기화<br>  (산식: ZTB1MM0003 창고재고 × ZTB1MM0001 이동평균가)"]
 
-    %% 테이블 액션 정의
-    D --- D1(이동평균가/생산원가 서치<br>• 원재료: 도입/로스 실시간 연산<br>• 연산품: CO-PP 고정 원가 Lock);
-    E --- E1(창고별 실시간 수량 가감<br>• 총 평가금액 실시간 동기화<br>• 산식: 재고량 × 이동평균가);
-
-    %% 클래스 지정
-    class A event;
-    class B doc;
-    class C func;
-    class D,E table;
+    %% 비주얼 스타일 가독성 중심 정돈
+    style A fill:#fafafa,stroke:#333,stroke-width:1px
+    style B fill:#fafafa,stroke:#333,stroke-width:1px
+    style C fill:#fffde7,stroke:#fbc02d,stroke-width:2px
+    style D fill:#f5f5f5,stroke:#424242,stroke-width:1px
+    style E fill:#f5f5f5,stroke:#424242,stroke-width:1px
 ```
 
 ---
