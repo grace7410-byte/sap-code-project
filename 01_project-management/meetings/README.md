@@ -6,28 +6,28 @@
 
 | 회의 일자 | 회의 성격 | 주요 의제 및 링크 | 비고 |
 | :--- | :--- | :--- | :--- |
-| **2026-03-12** | 주제 선정 (1차) | [프로젝트 산업 후보군 검토 및 선호도 조사 (화장품 vs 정유)](2026-03-12-topic-selection.md) | 후보군 7개 브레인스토밍 |
-| **2026-03-13** | 주제 확정 (2차) | [석유 정제 및 제조 기업(정유 산업) 프로젝트 주제 최종 선정](2026-03-13-topic-selection.md) | BM 선정을 위한 분석 완료 |
-| **2026-03-16** | 도메인 프로세스 | [정유 산업 연산품 구조(Joint Production), OSP 및 Lagging Effect 도메인 이해 회의](2026-03-16-industry-process_discussion.md) | E2E 기본 비즈니스 모델 합의 |
-| **2026-03-17** | 비즈니스 개선 | [C-nergy 기업 포지셔닝 확정 및 5대 Business Challenge 기반 AS-IS/TO-BE 설계](2026-03-17-biz-process-refinement.md) | AS-IS/TO-BE 모델링 완료 |
-| **2026-03-18** | 마스터 및 WBS | [Fiori 데모 기반 마스터 데이터 필드(BP/Material) 구조 분석 및 전체 WBS 일정 확정](2026-03-18-master-data-wbs.md) | 설계 리더(CL) 구조 도입 |
-| **2026-03-19** | 표준화 및 실습 | [Company Code/Plant 기초 설정 점검 및 Standard 모듈 간 트랜잭션 Hands-on 실습](2026-03-19-process-standardization.md) | FI-MM-SD-PP 연동 분석 |
-| **2026-03-20** | 통합 Flow 수립 | [정유 특화 TO-BE 통합 프로세스(수요 기반 최적 수율 제어) 확정 및 컨설턴트 리뷰 대비](2026-03-20-integrated-flow.md) | 아키텍처 피드백 질의 정립 |
-| **2026-03-23** | 컨설턴트 리뷰 | [1차 컨설턴트 피드백 수렴: MTS 기반 피벗, 물류센터 거점 추가 및 해징 삭제](2026-03-23-consultant-review.md) | 비즈니스 모델 현실화 |
-| **2026-03-24** | 테이블 및 원가 | [회계 기초 정보 정의 및 원유 도입/가공비 가중치 기반 제품 마진 공식 산정](2026-03-24-table-definition-meeting.md) | CBO 테이블 스키마 구체화 |
-| **2026-03-25** | 모듈 통합 설계 | [MM-PP-SD 공통 재고 이동 테이블 설계 및 온도/밀도 보정 환산량 관리 원칙 수립](2026-03-25-module-integration-meeting.md) | 파편화된 재고 정보 단일화 |
-| **2026-03-26** | 공정 및 계정 설계 | [작동 가능한 시스템 구축을 위한 공정 단순화 및 T030 기반 FI-MM 자동 분개 규칙 수립](2026-03-26-simplification-integration-meeting.md) | 핵심 제품군 자재 코드 통합 |
-| **2026-03-27** | 동적 생산 및 통합 | [전 모듈 테이블 취합 완료, MOPS 연동 수익성 분석(CO-PP) 및 설비 장애 대응 로직 확정](2026-03-27-integration-and-profitability-meeting.md) | SCM 통합 및 데이터 시트 승인 |
-| **2026-03-30** | 2차 컨설턴트 리뷰 | [2차 피드백 수렴: 여신 관리 간소화, 인바운드 딜리버리 필드 확장 및 PP-CO 모듈 R&R 정립](2026-03-30-2nd-consultant-review.md) | 설계 불확실성 제거 |
-| **2026-03-31** | 전표 매핑 검증 | [FI 중심 전수 데이터 매핑, 1오더-2송장 구조 및 재공품(WIP) 회계 처리 방안 논의](2026-03-31-module-integration-data-verification.md) | 예시 데이터 정합성 검증 |
-| **2026-04-01** | 데이터 시뮬레이션 | [이동유형(261/101)별 제조원가 상계 시뮬레이션 및 선적 입고 '확정 재고' 기준 수립](2026-04-01-data-simulation-meeting.md) | SCM-FCM 연동성 검증 완료 |
-| **2026-04-02** | 강사 멘토링 면담 | [1:1 면담 기반 포트폴리오 차별화 전략 수립 및 정유 특화 1차 최종 ERD 확정](2026-04-02-instructor-interview-meeting.md) | 분석 최적화 1차 설계 마감 |
-| **2026-04-03** | E2E 검증 및 확정 | [물류 거점 보충 요청(DR) 및 증발 로스 처리 로직 검증, 개발 프로그램 리스트 최종 동결](2026-04-03-e2e-integration-and-technical-strategy.md) | 기술 그라운드 룰 숙지 완료 |
-| **2026-04-08** | 데이터 규모 픽스 | [변별력 확보를 위한 전사 데이터 스케일 하향 조정 및 본격적인 모듈별 프로그램 구현 단계 전환](2026-04-08-data-scale-and-dev-kickoff.md) | 개발 단계(Dev Phase) 킥오프 |
-| **2026-04-16** | UI/UX 표준화 | [멘토 진도 지연 피드백 대응, Happy Path 우선순위 선정 및 전사 화면 UI/UX 표준 가이드 수립](2026-04-16-mentor-feedback-and-ui-ux-standardization.md) | 1인 1완성 프로그램 체제 도입 |
-| **2026-04-24** | 중간평가 스코프 | [1차 중간평가 가이드 분석, 인당 조회 1/트랜잭션 1 스펙 픽스 및 CUD 중심 테이블 매핑](2026-04-24-midterm-evaluation-guide-and-progress-review.md) | 산출물 데드라인 준수 |
-| **2026-04-30** | 인터페이스 리팩토링 | [오피넷 MOPS 실가격 매핑 및 원유가 고정, LE 부분 운송 수용을 위한 PO 아이템 레벨 상태 관리 전환](2026-04-30-mops-le-interface.md) | Memory ID 기반 연동 확정 |
-| **2026-05-08** | 평가 피드백 반영 | [1차 중간평가 위원 피드백(Validation 강화) 반영 및 5/22 통합 시나리오 Freeze 일정 수립](2026-05-08-evaluation-review.md) | 주말 후속 3개 프로그램 빌드업 |
+| <nobr>**2026-03-12**</nobr> | 주제 선정 (1차) | [프로젝트 산업 후보군 검토 및 선호도 조사 (화장품 vs 정유)](2026-03-12-topic-selection.md) | 후보군 7개 브레인스토밍 |
+| <nobr>**2026-03-13**</nobr> | 주제 확정 (2차) | [석유 정제 및 제조 기업(정유 산업) 프로젝트 주제 최종 선정](2026-03-13-topic-selection.md) | BM 선정을 위한 분석 완료 |
+| <nobr>**2026-03-16**</nobr> | 도메인 프로세스 | [정유 산업 연산품 구조(Joint Production), OSP 및 Lagging Effect 도메인 이해 회의](2026-03-16-industry-process_discussion.md) | E2E 기본 비즈니스 모델 합의 |
+| <nobr>**2026-03-17**</nobr> | 비즈니스 개선 | [C-nergy 기업 포지셔닝 확정 및 5대 Business Challenge 기반 AS-IS/TO-BE 설계](2026-03-17-biz-process-refinement.md) | AS-IS/TO-BE 모델링 완료 |
+| <nobr>**2026-03-18**</nobr> | 마스터 및 WBS | [Fiori 데모 기반 마스터 데이터 필드(BP/Material) 구조 분석 및 전체 WBS 일정 확정](2026-03-18-master-data-wbs.md) | 설계 리더(CL) 구조 도입 |
+| <nobr>**2026-03-19**</nobr> | 표준화 및 실습 | [Company Code/Plant 기초 설정 점검 및 Standard 모듈 간 트랜잭션 Hands-on 실습](2026-03-19-process-standardization.md) | FI-MM-SD-PP 연동 분석 |
+| <nobr>**2026-03-20**</nobr> | 통합 Flow 수립 | [정유 특화 TO-BE 통합 프로세스(수요 기반 최적 수율 제어) 확정 및 컨설턴트 리뷰 대비](2026-03-20-integrated-flow.md) | 아키텍처 피드백 질의 정립 |
+| <nobr>**2026-03-23**</nobr> | 컨설턴트 리뷰 | [1차 컨설턴트 피드백 수렴: MTS 기반 피벗, 물류센터 거점 추가 및 해징 삭제](2026-03-23-consultant-review.md) | 비즈니스 모델 현실화 |
+| <nobr>**2026-03-24**</nobr> | 테이블 및 원가 | [회계 기초 정보 정의 및 원유 도입/가공비 가중치 기반 제품 마진 공식 산정](2026-03-24-table-definition-meeting.md) | CBO 테이블 스키마 구체화 |
+| <nobr>**2026-03-25**</nobr> | 모듈 통합 설계 | [MM-PP-SD 공통 재고 이동 테이블 설계 및 온도/밀도 보정 환산량 관리 원칙 수립](2026-03-25-module-integration-meeting.md) | 파편화된 재고 정보 단일화 |
+| <nobr>**2026-03-26**</nobr> | 공정 및 계정 설계 | [작동 가능한 시스템 구축을 위한 공정 단순화 및 T030 기반 FI-MM 자동 분개 규칙 수립](2026-03-26-simplification-integration-meeting.md) | 핵심 제품군 자재 코드 통합 |
+| <nobr>**2026-03-27**</nobr> | 동적 생산 및 통합 | [전 모듈 테이블 취합 완료, MOPS 연동 수익성 분석(CO-PP) 및 설비 장애 대응 로직 확정](2026-03-27-integration-and-profitability-meeting.md) | SCM 통합 및 데이터 시트 승인 |
+| <nobr>**2026-03-30**</nobr> | 2차 컨설턴트 리뷰 | [2차 피드백 수렴: 여신 관리 간소화, 인바운드 딜리버리 필드 확장 및 PP-CO 모듈 R&R 정립](2026-03-30-2nd-consultant-review.md) | 설계 불확실성 제거 |
+| <nobr>**2026-03-31**</nobr> | 전표 매핑 검증 | [FI 중심 전수 데이터 매핑, 1오더-2송장 구조 및 재공품(WIP) 회계 처리 방안 논의](2026-03-31-module-integration-data-verification.md) | 예시 데이터 정합성 검증 |
+| <nobr>**2026-04-01**</nobr> | 데이터 시뮬레이션 | [이동유형(261/101)별 제조원가 상계 시뮬레이션 및 선적 입고 '확정 재고' 기준 수립](2026-04-01-data-simulation-meeting.md) | SCM-FCM 연동성 검증 완료 |
+| <nobr>**2026-04-02**</nobr> | 강사 멘토링 면담 | [1:1 면담 기반 포트폴리오 차별화 전략 수립 및 정유 특화 1차 최종 ERD 확정](2026-04-02-instructor-interview-meeting.md) | 분석 최적화 1차 설계 마감 |
+| <nobr>**2026-04-03**</nobr> | E2E 검증 및 확정 | [물류 거점 보충 요청(DR) 및 증발 로스 처리 로직 검증, 개발 프로그램 리스트 최종 동결](2026-04-03-e2e-integration-and-technical-strategy.md) | 기술 그라운드 룰 숙지 완료 |
+| <nobr>**2026-04-08**</nobr> | 데이터 규모 픽스 | [변별력 확보를 위한 전사 데이터 스케일 하향 조정 및 본격적인 모듈별 프로그램 구현 단계 전환](2026-04-08-data-scale-and-dev-kickoff.md) | 개발 단계(Dev Phase) 킥오프 |
+| <nobr>**2026-04-16**</nobr> | UI/UX 표준화 | [멘토 진도 지연 피드백 대응, Happy Path 우선순위 선정 및 전사 화면 UI/UX 표준 가이드 수립](2026-04-16-mentor-feedback-and-ui-ux-standardization.md) | 1인 1완성 프로그램 체제 도입 |
+| <nobr>**2026-04-24**</nobr> | 중간평가 스코프 | [1차 중간평가 가이드 분석, 인당 조회 1/트랜잭션 1 스펙 픽스 및 CUD 중심 테이블 매핑](2026-04-24-midterm-evaluation-guide-and-progress-review.md) | 산출물 데드라인 준수 |
+| <nobr>**2026-04-30**</nobr> | 인터페이스 리팩토링 | [오피넷 MOPS 실가격 매핑 및 원유가 고정, LE 부분 운송 수용을 위한 PO 아이템 레벨 상태 관리 전환](2026-04-30-mops-le-interface.md) | Memory ID 기반 연동 확정 |
+| <nobr>**2026-05-08**</nobr> | 평가 피드백 반영 | [1차 중간평가 위원 피드백(Validation 강화) 반영 및 5/22 통합 시나리오 Freeze 일정 수립](2026-05-08-evaluation-review.md) | 주말 후속 3개 프로그램 빌드업 |
 
 ---
 💡 *각 회의록 링크를 클릭하면 상세 회의 내용, 참석자, 넥스트 액션(Next Action)을 확인할 수 있습니다.*
