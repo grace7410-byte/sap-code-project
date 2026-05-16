@@ -1,4 +1,4 @@
-# [Architecture] SCM-FCM 물류 트랜잭션 기반 전사 원가 동기화 인터페이스 명세
+# SCM-FCM 물류 트랜잭션 기반 전사 원가 동기화 인터페이스 명세
 
 **최종 수정일**: 2026-05-11  
 **상태**: 확정 (Approved)  
@@ -19,23 +19,29 @@ ZTB1MM0001 및 ZTB1MM0003 테이블을 직접 수정할 수 없으며, Member 1(
 
 ```mermaid
 graph TD
-    %% 1. 물류 트랜잭션 발생 및 문서 생성
-    A["[ 물류 트랜잭션 발생 ]<br><br>• 구매: 원유 입고 / 증발 로스 (이동유형 101, 551)<br>• 생산: 반제품/완제품 입출고<br>• 판매: 완제품 거점 이동 및 출고 (GI)"]
-    A --> B["[ 자재이동문서 생성 ] (수량 변동 발생)"]
-    
-    %% 2. 공통 연동 함수 모듈 호출
-    B --> C["★ PM 개발 공통 연동 함수 모듈 자동 호출<br>(ZFM_`이름생성시추가`)"]
-    
-    %% 3. 테이블 동시 업데이트 분기
-    C --> D["[ 자재 마스터 테이블 (ZTB1MM0001) ]<br><br>• 이동평균가(생산원가) 서치<br>• 원재료: 도입/로스 반영 실시간 계산<br>• 연산품: CO-PP 확정 생산원가 Lock"]
-    C --> E["[ 저장위치별 재고 테이블 (ZTB1MM0003) ]<br><br>• 해당 저장위치의 '총 재고량' 차감<br>• '총 평가금액' 필드 실시간 동기화<br>  (산식: ZTB1MM0003 창고재고 × ZTB1MM0001 이동평균가)"]
+    %% 스타일 정의
+    classDef default fill:#f5f5f5,stroke:#424242,stroke-width:1px;
+    classDef func fill:#fffde7,stroke:#fbc02d,stroke-width:2px;
 
-    %% 비주얼 스타일 가독성 중심 정돈
-    style A fill:#fafafa,stroke:#333,stroke-width:1px
-    style B fill:#fafafa,stroke:#333,stroke-width:1px
-    style C fill:#fffde7,stroke:#fbc02d,stroke-width:2px
-    style D fill:#f5f5f5,stroke:#424242,stroke-width:1px
-    style E fill:#f5f5f5,stroke:#424242,stroke-width:1px
+    %% 노드 배치 (&nbsp;를 넣어 가로폭을 좌우로 확 넓힘)
+    A["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 물류 트랜잭션 발생 ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 구매: 원유 입고 / 증발 로스 (이동유형 101, 551)<br>• 생산: 반제품/완제품 입출고<br>• 판매: 완제품 거점 이동 및 출고 (GI)"]
+    
+    B["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 자재이동문서 생성 ] (수량 변동 발생) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    
+    C["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★ PM 개발 공통 연동 함수 모듈 자동 호출 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>(ZFM_`이름생성시추가`)"]
+    
+    D["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 자재 마스터 테이블 (ZTB1MM0001) ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 이동평균가(생산원가) 서치<br>• 원재료: 도입/로스 반영 실시간 계산<br>• 연산품: CO-PP 확정 생산원가 Lock"]
+    
+    E["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 저장위치별 재고 테이블 (ZTB1MM0003) ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 해당 저장위치의 '총 재고량' 차감<br>• '총 평가금액' 필드 실시간 동기화<br>(산식: ZTB1MM0003 창고재고 × ZTB1MM0001 이동평균가)"]
+
+    %% 연결 관계
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+
+    %% 스타일 적용
+    class C func;
 ```
 
 ---
