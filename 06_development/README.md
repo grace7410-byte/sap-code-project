@@ -4,13 +4,16 @@
 
 ## Structure
 - **individual_logs/**: 팀원별 주간 트러블슈팅 기록
-    - 형식: `Dev_Log_yymmdd_Index.md` (예: Dev_Log_260410_01.md)
+    - 형식: `dev_log_yymmdd_index.md`
 
+- **team_milestones/**: 전사 개발 회의 기반 공통 리팩토링 기록
+    - 형식: `team_dev_yymmdd_topic.md`
+- 
 ## Team Index (Internal)
 - 01: PM (운송 및 물류)
 - 02: CO (공정 계획 및 실적 비교)
 - 03: MM (구매 및 부피 측정)
 - 04: PP (자재-공정 연결 및 BOM/MRP)
-- 05: FI (통합 전표 및 재무상태표)
-- 06: FI (세부 전표 및 손익계산서)
+- 05: FI (세부 전표 및 재무상태표)
+- 06: FI (통합 전표 및 손익계산서)
 - 07: SD (주문관리 및 판매 마진)
