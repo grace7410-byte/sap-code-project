@@ -19,20 +19,16 @@ ZTB1MM0001 및 ZTB1MM0003 테이블을 직접 수정할 수 없으며, Member 1(
 
 ```mermaid
 graph TD
-    %% 스타일 정의
-    classDef default fill:#f5f5f5,stroke:#424242,stroke-width:1px;
-    classDef func fill:#fffde7,stroke:#fbc02d,stroke-width:2px;
-
-    %% 노드 배치 (&nbsp;를 넣어 가로폭을 좌우로 확 넓힘)
-    A["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 물류 트랜잭션 발생 ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 구매: 원유 입고 / 증발 로스 (이동유형 101, 551)<br>• 생산: 반제품/완제품 입출고<br>• 판매: 완제품 거점 이동 및 출고 (GI)"]
+%% 노드 배치 (가로폭 축소를 위해 타이트하게 <br> 배치)
+    A["[ 물류 트랜잭션 발생 ]<br><br>• 구매: 원유 입고 / 증발 로스<br>&nbsp;&nbsp;(이동유형 101, 551)<br>• 생산: 반제품/완제품 입출고<br>• 판매: 완제품 거점 이동<br>&nbsp;&nbsp;및 출고 (GI)"]
     
-    B["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 자재이동문서 생성 ] (수량 변동 발생) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B["[ 자재이동문서 생성 ]<br>(수량 변동 발생)"]
     
-    C["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★ PM 개발 공통 연동 함수 모듈 자동 호출 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>(ZFM_`이름생성시추가`)"]
+    C["★ PM 개발 공통 연동 함수 모듈<br>자동 호출 (ZFM_`이름생성시추가`)"]
     
-    D["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 자재 마스터 테이블 (ZTB1MM0001) ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 이동평균가(생산원가) 서치<br>• 원재료: 도입/로스 반영 실시간 계산<br>• 연산품: CO-PP 확정 생산원가 Lock"]
+    D["[ 자재 마스터 테이블 ]<br>(ZTB1MM0001)<br><br>• 이동평균가(생산원가) 서치<br>• 원재료: 도입/로스 반영<br>&nbsp;&nbsp;실시간 계산<br>• 연산품: CO-PP 확정<br>&nbsp;&nbsp;생산원가 Lock"]
     
-    E["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ 저장위치별 재고 테이블 (ZTB1MM0003) ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>• 해당 저장위치의 '총 재고량' 차감<br>• '총 평가금액' 필드 실시간 동기화<br>(산식: ZTB1MM0003 창고재고 × ZTB1MM0001 이동평균가)"]
+    E["[ 저장위치별 재고 테이블 ]<br>(ZTB1MM0003)<br><br>• 해당 저장위치의<br>&nbsp;&nbsp;'총 재고량' 차감<br>• '총 평가금액' 필드<br>&nbsp;&nbsp;실시간 동기화<br>• 산식: ZTB1MM0003 창고재고<br>&nbsp;&nbsp;× ZTB1MM0001 이동평균가"]
 
     %% 연결 관계
     A --> B
@@ -40,8 +36,12 @@ graph TD
     C --> D
     C --> E
 
-    %% 스타일 적용
-    class C func;
+    %% 비주얼 스타일 정돈
+    style A fill:#fafafa,stroke:#333,stroke-width:1px
+    style B fill:#fafafa,stroke:#333,stroke-width:1px
+    style C fill:#fffde7,stroke:#fbc02d,stroke-width:2px
+    style D fill:#f5f5f5,stroke:#424242,stroke-width:1px
+    style E fill:#f5f5f5,stroke:#424242,stroke-width:1px
 ```
 
 ---
