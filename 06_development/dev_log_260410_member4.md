@@ -1,19 +1,17 @@
-# [Dev Log] 2026-04-10 (Member 4)
+# [Dev Log] 2026-04-10 (Member 04 - PP)
 
-## 1. 개발 진행 내역
-- **프로그램**: 자재-공정 연결 관리 (SAPMZB1PP0003)
-- **주요 구현 내용**:
-    - 생성 및 변경 정보(ERNAM, ERDAT, ERZET, AENAM, AEDAT, AEZET)를 자동 업데이트하는 공용 Function Module(ZFB1CM0001) 개발 및 팀 내 공유
-    - Splitter Container와 ALV를 활용한 다중 화면 구성
-    - DB 테이블 외래키(Foreign Key) 설정을 기반으로 Layout 및 Field Catalog를 활용한 F4 Help(Search Help) 적용
-    - ALV 클래스의 `toolbar` 및 `user_command` 이벤트를 활용하여 신규 데이터 추가 및 저장 기능 구현
+- **작성자**: 비공개 (1조 / 반: CL2)
+- **프로그램**: SAPMZB1PP0005 (모듈: PP)
+- **프로젝트 명**: CYNERGY 프로젝트
+- **상태**: 구현중
 
-## 2. 기술적 트러블슈팅
-### 이슈: Subroutine의 전역 변수 직접 참조로 인한 유지보수성 저하
-- **현상**: 핵심 로직에 변경이 없음에도 불구하고, 전역 변수를 추가하거나 변수명을 수정할 때마다 전체 코드가 영향을 받는 현상 발생
-- **원인**: Subroutine이 인터페이스 매개변수를 통하지 않고 전역 변수에 직접 접근하여 결합도가 높아짐
-- **해결**: Subroutine 정의 시 인터페이스(Using/Changing)를 명확히 선언하고 로직과 변수를 분리하여 모듈화함으로써 독립성을 확보함
+## 1. 진행 내역
+1) Function Module ZFB1CM0001 개발. ERNAM ERDAT ERZET AENAM AEDAT AEZET 를 자동으로 업데이트 해주는 공용 Function 모듈을 개발하고 공유했다
+2) Splitter 와 ALV 를 활용해 화면 구성했고, DB 테이블 외래키 설정 후 Layout 과 Field catalog 를 활용해 F4Help 를 적용했다
+3) ALV 기본 툴바 버튼 정리 후 alv 클래스의 toolbar 와 user_command 이벤트를 활용해 신규 데이터 추가 및 저장 기능을 구현했다.
 
-## 3. 향후 계획
-- 자재 조회 ALV 및 공정 조회 ALV 구현
-- 각 ALV에서 선택된 데이터를 바탕으로 자재와 공정을 자동으로 연결해주는 연동 기능 개발 예정
+### 📌 차후 추가 기능 및 프로그램
+- 자재 조회 ALV, 공정 조회 ALV. 각각에서 선택하고 버튼을 통해 자재-공정을 자동으로 연결해주는 기능 구현 필요
+
+## 2. 발생한 기술적 오류 및 조치
+- [오류] Subroutine이 전역 변수에 접근하면서 발생한 결합도 상승 문제 -> 상세 내용은 [07_issues/2026-04-10-ALL-weekly-dev-errors.md#issue-5](../../07_issues/2026-04-10-ALL-weekly-dev-errors.md#issue-5) 참고
