@@ -47,7 +47,7 @@ SAP S/4HANA 기반 ERP 시스템 설계 및 개발 프로젝트입니다.
 - **04_design**  
   ERD 및 테이블 설계
 
-- **05_modules**  
+- **05_features**  
   모듈별 논의 및 설계
 
 - **06_development**  
