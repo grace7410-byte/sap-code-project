@@ -28,8 +28,8 @@
 | **2026.04.24** | 중간평가 스코프 | [1차 중간평가 가이드 분석, 인당 조회 1/트랜잭션 1 스펙 픽스 및 CUD 중심 테이블 매핑](2026-04-24-midterm-evaluation-guide-and-progress-review.md) | 산출물 데드라인 준수 |
 | **2026.04.30** | 인터페이스 리팩토링 | [오피넷 MOPS 실가격 매핑 및 원유가 고정, LE 부분 운송 수용을 위한 PO 아이템 레벨 상태 관리 전환](2026-04-30-mops-le-interface.md) | Memory ID 기반 연동 확정 |
 | **2026.05.08** | 평가 피드백 반영 | [1차 중간평가 위원 피드백(Validation 강화) 반영 및 5/22 통합 시나리오 Freeze 일정 수립](2026-05-08-evaluation-review.md) | 주말 후속 3개 프로그램 빌드업 |
-| **2026.05.14** | 데이터 스케일 얼라인 | [[Meeting] SD 주문 수량 동기화 및 사내강사 중간 점검 멘토링](2026-05-14-sd-quantity-alignment-and-mentoring.md) | 전사 스케일 상향 및 UI 가이드 수령 |
-| **2026.05.11** | 데이터 인터페이스 | [[Meeting] SCM-FCM 전사 데이터 통합 인터페이스 및 UI/UX 표준화 회의](2026-05-11-integration-and-uiux-meeting.md) | 원가 매커니즘 수기 검증 및 UI/UX 표준 동결 |
+| **2026.05.11** | 데이터 인터페이스 | [ SCM-FCM 전사 데이터 통합 인터페이스 및 UI/UX 표준화 회의](2026-05-11-integration-and-uiux-meeting.md) | 원가 매커니즘 수기 검증 및 UI/UX 표준 동결 |
+| **2026.05.14** | 데이터 스케일 얼라인 | [ SD 주문 수량 동기화 및 사내강사 중간 점검 멘토링](2026-05-14-sd-quantity-alignment-and-mentoring.md) | 전사 스케일 상향 및 UI 가이드 수령 |
 
 ---
 💡 *각 회의록 링크를 클릭하면 상세 회의 내용, 참석자, 넥스트 액션(Next Action)을 확인할 수 있습니다.*
