@@ -1,4 +1,4 @@
-# Decision
+# 데이터 스케일 상향 및 UI/UX 표준 수립 Decision
 
 Date: 2026-05-14
 
