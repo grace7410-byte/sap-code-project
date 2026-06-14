@@ -16,7 +16,7 @@ Date: 2026-03-20
 ## 해결 방법
 - **Step 1. 뷰 확장(Extension)**: `MM01`에서 기존에 만든 자재 번호를 다시 입력함. (새로 만드는 것이 아니라 기존 번호에 뷰만 추가하는 과정)
 - **Step 2. 뷰 선택**: [Select View] 창에서 **Work Scheduling** 뷰만 체크하여 확인.
-- **Step 3. 필수 값 입력**: 플랜트(1010) 입력 후, 내부 데이터에서 **Production Supervisor(001 등)**와 **Production Scheduling Profile**을 입력하고 저장.
+- **Step 3. 필수 값 입력**: 플랜트(1010) 입력 후, 내부 데이터에서 **Production Supervisor(001 등)와** **Production Scheduling Profile**을 입력하고 저장.
 - **Step 4. 재연결**: 이후 `C223`으로 돌아가 Group Counter(1)를 입력하고 [Check] 버튼을 눌러 BOM/Routing에 초록불이 들어오는지 확인.
 
 ## 참고 자료
