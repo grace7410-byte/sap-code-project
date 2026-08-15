@@ -1,7 +1,7 @@
 # Solution Strategy: 재고 가치 및 물류 통합 최적화 모델
 
-**Date:** 2026-04-03
-**Status:** Finalized (Reflecting Technical Ground Rules)
+**Date:** 2026-04-03  
+**Status:** Finalized (Reflecting Technical Ground Rules)  
 **Owner:** CL (C-nergy Project Team)
 
 ---
