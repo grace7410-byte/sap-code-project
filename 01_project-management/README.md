@@ -57,14 +57,14 @@
 * **원칙**: 회의 과정이나 검토 단계는 제외하고 '최종 결과'만 기록
 * **템플릿**:
 
-`# [의사결정 주제]`
-
-`- **Date**: YYYY-MM-DD`
-`- **Status**: Approved / Deprecated`
-
-`## Context`
-`- 결정이 필요했던 배경`
-
-`## Decision`
-`- 확정된 최종 내용`
-
+  `# [의사결정 주제]`
+  
+  `- **Date**: YYYY-MM-DD`
+  `- **Status**: Approved / Deprecated`
+  
+  `## Context`
+  `- 결정이 필요했던 배경`
+  
+  `## Decision`
+  `- 확정된 최종 내용`
+  
