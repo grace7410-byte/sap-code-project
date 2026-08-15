@@ -2,7 +2,7 @@
 
 **최종 수정일**: 2026-07-01  
 **상태**: 확정 (Approved)  
-**버전**: v2.3 (Check Table, Search Help, Fixed Value 열 제거 및 구조 통일)
+**버전**: v1.2 (Check Table, Search Help, Fixed Value 열 제거 및 구조 통일)
 
 > 💡 **문서 연결 가이드**: 타 문서에서 특정 테이블로 링크를 걸 때는 본 파일 경로 뒤에 `#테이블명` 앵커를 사용  
 > *예시: `[대금 청구 아이템 스펙](04_design/03_sd_table_spec.md#ztb1sd0011)`*
