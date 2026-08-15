@@ -1,4 +1,6 @@
-# SAP CODE Project Log
+# SAP CODE Project (우수상 수상)
+> **CODE Academy CL2 1기 최종 프로젝트 반 1등 (우수상 수상)**  
+> 정유 산업 특화 프로세스 설계 및 MM/PP/SD/FI/CO 전사 통합 CBO 구축 프로젝트
 
 ## 📌 Overview
 SAP S/4HANA 기반 ERP 시스템 설계 및 개발 프로젝트입니다.
