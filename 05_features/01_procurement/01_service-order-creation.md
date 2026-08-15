@@ -9,7 +9,8 @@
   6. 원유 입고 완료 / 플랜트 입고 완료 시점의 납품 예정일은 자동 입력
 - **관련 테이블**: `ZTB1MM0006`(구매오더 헤더), `ZTB1MM0007`(구매오더 항목), `ZTB1MM0009`(SES 헤더), `ZTB1MM0010`(SES 항목), `ZTB1MM0021`(운송현황), `ZTB1MM0022`(국가별 운송경로 마스터)
 - **기술 스택**: ABAP RAP(SES 헤더/항목 BO), Fiori Elements Object Page, 핫스팟 내비게이션(OData Navigation)
-- **연동 흐름**: SES 확정 → MM 자재문서(`ZTB1MM0011/0012`) 생성 트리거 → FI 전표(`ZTBF10001/10002`) 자동 인터페이스(매입/AP)
+- **연동 흐름**: SES 확정 → MM 자재문서(`ZTB1MM0011/0012`) 생성 트리거 → FI 전표(`ZTBF10001/10002`) 자동 인터페이스(매입/AP)  
+
 
 
 ![MM Service Order Creation](../images/mm_service-order-creation.png)
