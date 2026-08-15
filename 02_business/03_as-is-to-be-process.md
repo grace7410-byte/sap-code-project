@@ -1,8 +1,9 @@
 # C-nergy AS-IS / TO-BE Process Analysis
 
-Date: 2026-03-17 ~ 2026-03-19
+**Date:** 2026-03-17 ~ 2026-03-19
 
-Updated: 2026-07-15 (Final Refinement)
+
+**Updated:** 2026-07-15 (Final Refinement)
 
 ## 1. 수입 물류 및 대금 정산 (Procurement & FI)
 - **AS-IS Process**
@@ -42,5 +43,9 @@ Updated: 2026-07-15 (Final Refinement)
 ## 5. 통합 비즈니스 플로우 (Integrated To-Be)
 
 **[Procurement]** 원유 PO 생성 → 선적 입고(15℃ 환산) → 송장 검증/지급 → 플랜트 입고(바코드 연동/로스 정산) → 염분 판정/전처리
+
+
 **[Production & CO]** 수요 예측 → 생산 오더(예측) → 원자재/반제품 실측 투입 → 수율 기반 공정비 자동 배부 → 원가 차이 분석
+
+
 **[Logistics & Sales]** 유가/환율 API 적재 → 거점 재고 모니터링 → 보충 요청(DR) → PIR 역산 반영 → 출하 및 자동 전표 생성
