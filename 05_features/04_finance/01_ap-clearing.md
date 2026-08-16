@@ -10,10 +10,10 @@
   5. 지급 버튼 클릭 → 반제 전표 생성
   6. 지급완료 클릭 → 반제 전표 번호 및 전표 내역 조회
 
-- **관련 테이블**: `ZTBF10002`(전표 아이템 - LIFNR/AUGBL), `ZTBF10010`(반제/미반제 관리)
+- **관련 테이블**: [`ZTB1FI0002`](../../04_design/table_specifications/04_FI_table_spec.md#index02)(전표 아이템 - LIFNR/AUGBL), [`ZTB1FI0010`](../../04_design/table_specifications/04_FI_table_spec.md#index10)(반제/미반제 관리)
 
 - **기술 스택**: ABAP RAP(반제 처리 BO, 외화환산 로직 포함), Fiori Elements Object Page
 
-- **연동 흐름**: 반제 확정 → `ZTBF10010.STATUS`를 `C`(Clear)로 갱신, 반제 전표(AUGBL) 원 전표 매핑 → 전표 대시보드에서 조회
+- **연동 흐름**: 반제 확정 → [`ZTB1FI0010`](../../04_design/table_specifications/04_FI_table_spec.md#index10).STATUS를 `C`(Clear)로 갱신, 반제 전표(AUGBL) 원 전표 매핑 → 전표 대시보드에서 조회
 
 ![FI AP Clearing](../images/fi_ap-clearing.png)
