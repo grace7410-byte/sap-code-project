@@ -10,7 +10,7 @@
   5. 전표 헤더 한 행 선택 후 역분개
   6. 전표 헤더 핫스팟 클릭 시 참조문서내역 확인
 
-- **관련 테이블**: `ZTBF10001`(전표 헤더), `ZTBF10002`(전표 아이템)
+- **관련 테이블**: [`ZTB1FI0001`](../../04_design/table_specifications/04_FI_table_spec.md#index01)(전표 헤더), [`ZTB1FI0002`](../../04_design/table_specifications/04_FI_table_spec.md#index02)(전표 아이템)
 
 - **기술 스택**: Fiori Elements List Report + Object Page(Header-Item Drilldown), OData Deep Navigation, Custom Action(역분개)
 
