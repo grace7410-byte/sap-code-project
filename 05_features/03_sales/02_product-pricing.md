@@ -8,7 +8,7 @@
   3. 제품별 마진율 입력 후 계산하기 클릭 → MOPS 기반 프리미엄가 계산, 최근 5일 기본 가격 변동 추이 차트 표시
   4. 행 더블클릭 시 제품 세금 정보 및 1BBL당 판매가 표시(TAX1~4 + VAT)
 
-- **관련 테이블**: [`ZTB1SD0004`](../../04_design/table_specifications/03_SD_table_spec.md#index04)(가격 조건 마스터), `ZTBF10009`(MOPS 테이블), `ZTBF10007`(환율)
+- **관련 테이블**: [`ZTB1SD0004`](../../04_design/table_specifications/03_SD_table_spec.md#index04)(가격 조건 마스터), [`ZTB1FI0009`](../../04_design/table_specifications/04_FI_table_spec.md#index09)(MOPS 테이블), [`ZTB1FI0007`](../../04_design/table_specifications/04_FI_table_spec.md#index07)(환율)
 
 - **기술 스택**: ABAP RAP(가격 조건 BO), CDS View(MOPS·환율 조인 산식), Fiori Elements + Chart Annotation
 
