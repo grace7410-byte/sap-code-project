@@ -9,6 +9,14 @@
 - **team_milestones/**: 전사 개발 회의 기반 공통 리팩토링 기록
     - 형식: `team_dev_yymmdd_topic.md`
 
+## individual_logs/
+
+7명 × 6주차(04-10~06-12) = 42개 파일. `dev_log_yymmdd_index.md` 형식으로 팀원별·주차별 트러블슈팅을 기록합니다.
+
+## team_milestones/
+
+- [team_dev_260511_ui_ux_standard.md](team_milestones/team_dev_260511_ui_ux_standard.md) — 5/11 전사 UI/UX 가이드라인 표준화 및 공통 리팩토링 기록
+
 ## Team Index (Internal)
 - 01: PM (운송 및 물류)
 - 02: CO (공정 계획 및 실적 비교)
